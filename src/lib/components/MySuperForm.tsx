@@ -21,7 +21,7 @@ const validationSchema = yup.object().shape({
 // Resource Data
 const topSkills = ["HTML", "CSS", "JavaScript", "TypeScript", "React"];
 
-function App() {
+function MySuperForm() {
 
   const { register, handleSubmit, control, formState: { errors, isValid } } = useForm<FormValues>({
     mode: "onChange",
@@ -113,4 +113,4 @@ function App() {
   );
 }
 
-export default App;
+export default MySuperForm;
